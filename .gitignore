@@ -1,11 +1,23 @@
-# Node dependencies
+# Node
 node_modules/
+npm-debug.log
+yarn-error.log
 .env
 
-# Logs
-logs/
-*.log
+# Expo / React Native
+.expo/
+.expo-shared/
+*.apk
+*.aab
+*.ipa
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
 
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
